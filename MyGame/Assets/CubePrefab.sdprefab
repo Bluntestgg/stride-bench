@@ -1,0 +1,56 @@
+!PrefabAsset
+Id: 075b2c96-50c6-4ff1-a2b3-7699fd455989
+SerializedVersion: {Stride: 3.1.0.1}
+Tags: []
+Hierarchy:
+    RootParts:
+        - ref!! 7ee60c22-b752-48d4-8b92-2c18f58385ab
+    Parts:
+        -   Entity:
+                Id: 7ee60c22-b752-48d4-8b92-2c18f58385ab
+                Name: CubePrefab
+                Components:
+                    967d2289cd5048ffe5ebf19e4798b2b0: !TransformComponent
+                        Id: b8e99b4e-5e2b-478f-934e-179d57d74b41
+                        Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children:
+                            10c92b96b3a4d58472d0988264b31da9: ref!! ae3a9306-f66c-44e9-97f5-3a4c7df94fad
+        -   Entity:
+                Id: bbbf37e1-1c49-448e-af3c-7f5573480375
+                Name: Cube
+                Components:
+                    0c692dbc3f705b364b25b560d8e00e20: !TransformComponent
+                        Id: ae3a9306-f66c-44e9-97f5-3a4c7df94fad
+                        Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 0.2, Y: 0.2, Z: 0.2}
+                        Children: {}
+                    acb3797cd8f86e72cce6062cdcc919f3: !ModelComponent
+                        Id: 264de168-4de0-40e3-a887-c5f61b6cf263
+                        Model: ef62d286-d0bf-4870-a468-2aa595936088:Cube
+                        Materials: {}
+                    145255af245e0499714885a8a87d9857: !RigidbodyComponent
+                        Id: 51d8acd6-1ce1-42c7-887e-220637b8d2a5
+                        CanCollideWith: StaticFilter
+                        CanSleep: true
+                        Restitution: 0.0
+                        Friction: 0.0
+                        RollingFriction: 0.0
+                        CcdMotionThreshold: 0.0
+                        CcdSweptSphereRadius: 0.0
+                        IsTrigger: false
+                        IsKinematic: true
+                        Mass: 0.0
+                        LinearDamping: 0.0
+                        AngularDamping: 0.0
+                        OverrideGravity: false
+                        Gravity: {X: 0.0, Y: 0.0, Z: 0.0}
+                        NodeName: null
+                        ColliderShapes:
+                            81ded7407a488640a874e5ba0dc85f94: !BoxColliderShapeDesc
+                                Is2D: false
+                                Size: {X: 1.0, Y: 1.0, Z: 1.0}
+                                LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
+                                LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}

@@ -1,0 +1,20 @@
+!Package
+SerializedVersion: {Assets: 3.1.0.0}
+Meta:
+    Name: MyGame.Windows
+    Version: 1.0.0
+    Authors: []
+    Owners: []
+    Dependencies: null
+AssetFolders:
+    -   Path: !dir Assets
+ResourceFolders:
+    - !dir Resources
+OutputGroupDirectories: {}
+ExplicitFolders: []
+Bundles: []
+TemplateFolders: []
+RootAssets:
+    - 048e285a-d7ed-43d3-8417-e6cb6b7e1659:Sphere
+    - 075b2c96-50c6-4ff1-a2b3-7699fd455989:CubePrefab
+    - ef62d286-d0bf-4870-a468-2aa595936088:Cube
